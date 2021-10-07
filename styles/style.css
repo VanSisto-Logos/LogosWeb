@@ -1,0 +1,55 @@
+
+
+li { 
+    font-size: 10px;
+    color: #e0942f;
+    color: #7a1;
+    color: rgba(99, 187, 58, 0.5);
+}
+
+#li-orange-color {
+    color: #e0942f;
+}
+
+.blue-el {
+    color: blue;
+    font-size: 20px;
+}
+
+ol, ul {
+    background-color: #e0942f;
+}
+
+div span {
+    background-color: aqua;
+}
+
+.c2 span {
+    background-color: cadetblue;
+}
+
+span.c1 {
+    background-color: gold;
+}
+/* .c1 > em {
+    background-color: blueviolet;
+} */
+
+
+div ~ span {
+    background-color: coral;
+}
+
+span:nth-child(2) {
+    background-color: red;
+}
+
+div:empty {
+    background-color: black;
+    height: 100px;
+}
+
+.c1 {
+    font-family: 'Akronim', cursive;
+    font-size: 30px;
+}
