@@ -1,0 +1,20 @@
+.out {
+    font-size: 100px;
+}
+
+.back {
+    background-image: url("../images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    color: brown;
+    text-decoration: underline;
+}
