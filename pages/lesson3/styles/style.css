@@ -1,0 +1,52 @@
+@font-face{
+   font-family:"Righteous";
+   src:url(../fonts/Righteous-Regular.ttf);
+}
+
+
+.lorem {
+    font-family: 'Righteous', cursive;
+    font-size: 50%;
+    text-align: justify;
+    text-decoration: overline;
+    text-decoration-color: brown;
+    text-decoration-style: wavy;
+    line-height: 80px;
+    letter-spacing: 20px;
+    text-indent: 150px;
+    text-transform: uppercase;
+
+}
+
+.yellow-image {
+    height: 150px;
+    width: 50px;
+    background-color: yellow;
+}
+
+.not-my-svg {
+    height: 100px;
+}
+
+.parent {
+    font-size: 100px;
+    /* background-size: cover; */
+    /* background-image: url("../images/wall.jpeg"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 400px 30px; */
+    /* background-attachment: fixed; */
+
+    /* background: yellow url("../images/wall.jpeg") fixed center/cover no-repeat; */
+
+    /* opacity: .5; */
+
+
+    background: radial-gradient( yellow 10% 70%, red 10%, blue);
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Righteous', cursive;
+}
