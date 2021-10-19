@@ -1,0 +1,73 @@
+.bord {
+    /* width: 300px;
+    height: 300px; */
+    border: 10px solid black;
+    /* border-radius: 20px 30px 10px 5px; */
+    outline: 15px double blue;
+    /* float: left; */
+    margin-left: 30px;
+}
+
+.bord:hover {
+    background-color: aqua;
+}
+
+input:disabled {
+    background-color: yellow;
+}
+
+.bord2 {
+    /* width: 300px;
+    height: 300px; */
+    /* float: left; */
+}
+
+.block2 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+[target] {
+    color: red;
+}
+
+span[title*=h] {
+    color: blue;
+}
+
+div[title=hh]:disabled {
+    background-color: rebeccapurple;
+}
+
+ul {
+    /* list-style-image: url('../images/umb.png'); */
+    list-style-type: disclosure-open;
+}
+
+a:target {
+    background-color: red;
+}
+
+.quote::first-letter {
+    font-size: 40px;
+}
+
+.quote::selection {
+    background-color: yellow;
+}
+
+/* .quote::before {
+    content: open-quote;
+}
+
+.quote::after {
+    content: close-quote;
+} */
+
+#prior {
+    background-color: blue;
+}
+.prior {
+    background-color: red;
+}
