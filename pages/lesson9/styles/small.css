@@ -1,0 +1,17 @@
+div.card {
+    /* width: 10%; */
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+div.menu {
+    visibility: hidden;
+}
+
+div.drop {
+    visibility: visible;
+    position: static;
+    left: 10px;
+    top: 10px
+}
