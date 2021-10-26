@@ -1,0 +1,23 @@
+header nav.nav {
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header div.line {
+    visibility: hidden;
+    width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+
+div.dots {
+    visibility: visible;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}

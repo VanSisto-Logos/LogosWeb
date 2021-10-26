@@ -1,0 +1,11 @@
+header nav.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header nav div.item {
+    margin-top: 0;
+    margin-bottom: 0;
+}

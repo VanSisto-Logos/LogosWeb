@@ -1,0 +1,12 @@
+@import url(styles/header.css);
+@import url(styles/main.css);
+
+body {
+    /* background-color: #eee; */
+}
+
+body hr {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-top: 3px solid #ddd;
+}
