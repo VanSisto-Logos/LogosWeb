@@ -1,0 +1,47 @@
+@import url(adapt/header-medium.css) only screen and (max-width: 1372px);
+@import url(adapt/header-small.css) only screen and (max-width: 784px);
+
+header nav {
+    width: 100%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #888;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+header nav div {
+    margin: 15px;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+header nav div.active {
+    color: black;
+    font-size: 35px;
+    border-bottom: 3px solid #0a0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header {
+    height: 300px;
+    display: flex;
+}
+
+header img {
+    width: 500px;
+}
+
+header div.line {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ccc;
+    height: 300px;
+    width: 4px;
+}
+
+header div.dots {
+    visibility: hidden;
+}
